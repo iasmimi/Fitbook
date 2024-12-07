@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d5006d;
+    padding: 15px;
+    color: white;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 290px;
+    height: 150px;
+}
+
+.header-text {
+    font-size: 25px;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cadastrar-btn {
+    background-color: #6CD05F;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 32px;
+    font-family: 'Lobster Two', cursive;
+    margin: 35px;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-registro {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-registro label {
+    margin: 10px 0 5px;
+}
+
+.form-registro input,
+.form-registro textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #6CD05F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #a2004d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #d5006d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.editar, .deletar {
+    background-color: #D8ABFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.editar:hover, .deletar:hover {
+    background-color: #a2004d;
+    color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form-container {
+    background-color: #fff; /* Cor de fundo do formulário */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #d5006d; /* Borda com a cor do tema */
+}
+
+.form-registro label {
+    margin: 10px 0 5px;
+    color: #d5006d; /* Cor do texto das labels */
+}
+
+.form-registro input,
+.form-registro textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Transição suave para a borda */
+}
+
+.form-registro input:focus,
+.form-registro textarea:focus {
+    border-color: #d5006d; /* Cor da borda quando o campo está em foco */
+}
+
+.submit-btn {
+    background-color: #d5006d; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #a2004d; /* Cor do botão ao passar o mouse */
+}
+
+.modal-titulo {
+    color: #d5006d; /* Cor do título do modal */
+}

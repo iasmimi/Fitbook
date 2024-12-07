@@ -1,0 +1,126 @@
+.deletar-looks{
+    margin-top: 100px;
+    width: 592px;
+    height: 198px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px ;
+    display: none;
+
+
+
+
+
+
+    }
+
+    .titulo-deletar{
+        font-size: 35px;
+        font-family: 'Playfair Display', cursive;
+        color: #505050;
+        display: flex;
+        justify-content: center;
+
+        margin: 0;
+        width: 324px;
+        height: 37px;
+        border-radius: 240px;
+        margin-left: -390px;
+
+
+
+
+    }
+
+
+    .deletar-container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-left: 50px;
+
+
+
+    }
+
+
+    .x-btn-delete{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 500px;
+        margin-top: 20px;
+        cursor: pointer;
+
+    }
+
+    .cancelar-deletar{
+        border: none;
+        background-color: #fff;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .deletar-container{
+        grid-template-columns: 1fr, 1fr;
+        margin-bottom: 160px;
+    }
+
+
+    .deletar-botao{
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 50px;
+        border-color: #505050;
+        margin-bottom: 30px;
+        background-color: #FF5F5F;
+        color: #fff;
+        font-family: 'Playfair Display', cursive;
+        width: 200px;
+        cursor: pointer;
+    }
+
+
+    .cancelar-botao{
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 50px;
+        border-color: #505050;
+        margin-bottom: 30px;
+        background-color: #76D369;
+        font-family: 'Playfair Display', cursive;
+        color: #fff;
+        width: 200px;
+        cursor: pointer;
+
+
+    }
+
+    .cancelar-botao:hover{
+        border-color: #D15281;
+
+    }
+    .rato-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+
+
+    }
+
+    .rato-triste{
+       width: 70px;
+
+
+
+
+
+    }
